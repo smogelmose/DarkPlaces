@@ -2,16 +2,20 @@
 
 public partial class House
 {
-	public Player Player { get; }
 
-	private readonly Random _rnd = new(1234);
+    public Player Player { get; }
 
-	public int Weight { get; set; }
-	public int Height { get; set; }
-	public Room[] Rooms { get; private set; }
+    private readonly Random _rnd = new(1234);
 
-	public House(Player player)
-	{
-		Player = player;
-	}
+    public int Width { get; set; }
+    public int Height { get; set; }
+    public Room[] Rooms { get; private set; }
+
+    public House(Player player)
+    {
+
+        Player = player;
+
+    }
+
 }

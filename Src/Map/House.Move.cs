@@ -17,4 +17,6 @@ public partial class House
     {
         GoToRoom(_rnd.Next(0, Rooms.Length));
     }
+
+
 }
