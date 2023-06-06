@@ -1,6 +1,6 @@
 ﻿namespace DarkPlaces;
 
-public abstract class IOtem
+public abstract class Item
 {
 
     public virtual string Name { get; set; }
